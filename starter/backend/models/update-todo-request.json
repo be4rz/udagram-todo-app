@@ -9,11 +9,15 @@
       "name": {
         "type": "string",
         "minLength": 1
+      },
+      "done": {
+        "type": "boolean"
       }
     },
     "required": [
       "dueDate",
-      "name"
+      "name",
+      "done"
     ],
     "additionalProperties": false
   }
