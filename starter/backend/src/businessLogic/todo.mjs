@@ -2,7 +2,7 @@ import * as uuid from 'uuid'
 import { TodoAccess } from '../dataLayer/todoAccess.mjs'
 import { createLogger } from '../utils/logger.mjs'
 
-const logger = createLogger('todos');
+const logger = createLogger('todo');
 
 const todoAccess = new TodoAccess();
 

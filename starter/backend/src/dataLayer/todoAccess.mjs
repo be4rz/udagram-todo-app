@@ -3,7 +3,7 @@ import { DynamoDBDocument } from '@aws-sdk/lib-dynamodb'
 import AWSXRay from 'aws-xray-sdk-core'
 import { createLogger } from '../utils/logger.mjs'
 
-const logger = createLogger('todos');
+const logger = createLogger('todoAccess');
 
 export class TodoAccess{
     constructor(

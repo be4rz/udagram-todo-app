@@ -3,7 +3,7 @@ import { getSignedUrl } from '@aws-sdk/s3-request-presigner'
 import { createLogger } from '../utils/logger.mjs'
 import AWSXRay from 'aws-xray-sdk-core'
 
-const logger = createLogger('attachedFile');
+const logger = createLogger('bucketAccess');
 
 const s3Client = new S3Client();
 

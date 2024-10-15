@@ -5,7 +5,7 @@ import { getUserId } from "../utils.mjs"
 import { generateUploadUrl } from '../../businessLogic/attachedFile.mjs'
 import { createLogger } from '../../utils/logger.mjs'
 
-const logger = createLogger('todos');
+const logger = createLogger('generateUploadUrl');
 
 export const handler = middy()
   .use(httpErrorHandler())

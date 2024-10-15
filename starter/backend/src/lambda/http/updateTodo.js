@@ -5,7 +5,7 @@ import { getUserId } from "../utils.mjs"
 import { updateTodo } from "../../businessLogic/todo.mjs"
 import { createLogger } from '../../utils/logger.mjs'
 
-const logger = createLogger('todos');
+const logger = createLogger('updateTodo');
 
 export const handler = middy()
   .use(httpErrorHandler())
